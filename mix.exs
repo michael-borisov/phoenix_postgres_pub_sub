@@ -27,9 +27,8 @@ defmodule PhoenixPostgresPubSub.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:postgrex, "~> 0.15.8"},
-      {:ecto, "~> 3.5.6"},
-      {:ecto_sql, "3.5.4"},
+      {:postgrex, "~> 0.16.1"},
+      {:ecto_sql, "~> 3.7.2"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
